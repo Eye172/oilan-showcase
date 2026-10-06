@@ -5,6 +5,10 @@ A team project exploring a single-channel EEG brain–computer interface for ass
 
 **Experimental prototype · Samsung Solve for Tomorrow 2026.**
 
+![Engineering diagram of the documented signal-preparation pipeline. This is a system explanation, not a simulated EEG trace or a control-performance result.](signal-pipeline.svg)
+
+*Engineering diagram of the documented signal-preparation pipeline. This is a system explanation, not a simulated EEG trace or a control-performance result.*
+
 ## Begin with the signal you actually have
 
 The documented hardware path uses a **NeuroSky MindWave single-channel sensor**, with a dry frontal electrode. Its records include attention/meditation indicators, contact quality and band-power measurements. Before asking a model to infer a command, the pipeline needs to distinguish usable observations from poor contact, repeated values and missing indicators.

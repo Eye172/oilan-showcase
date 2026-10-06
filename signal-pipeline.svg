@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07141d"/><stop offset="1" stop-color="#112536"/></linearGradient></defs>
+<rect width="1200" height="620" rx="20" fill="url(#bg)"/>
+<g fill="none" stroke="#19394c" opacity=".65"><path d="M0 110H1200M0 210H1200M0 310H1200M0 410H1200M0 510H1200"/><path d="M100 0V620M300 0V620M500 0V620M700 0V620M900 0V620M1100 0V620"/></g>
+<g font-family="Arial,sans-serif" fill="#e9f4fa">
+<text x="48" y="53" font-size="16" letter-spacing="5" fill="#8fd7e6">OILAN / SIGNAL ENGINEERING</text>
+<text x="48" y="108" font-size="36" font-weight="700">From a noisy reading to a testable feature.</text>
+<text x="48" y="141" font-size="18" fill="#9cb6c7">Documented preparation pipeline · single-channel NeuroSky MindWave</text>
+<g fill="#102331" stroke="#315063"><rect x="48" y="193" width="336" height="295" rx="12"/><rect x="432" y="193" width="336" height="295" rx="12"/><rect x="816" y="193" width="336" height="295" rx="12"/></g>
+<g fill="#8fd7e6" font-size="14" letter-spacing="2"><text x="72" y="228">01 / INPUT</text><text x="456" y="228">02 / QUALITY</text><text x="840" y="228">03 / FEATURES</text></g>
+<g font-size="26" font-weight="700"><text x="72" y="269">Session records</text><text x="456" y="269">Preserve the flags</text><text x="840" y="269">48 derived features</text></g>
+<g font-size="18" fill="#bcd0dc"><text x="72" y="316">8 band-power measurements</text><text x="72" y="354">Attention / Meditation</text><text x="72" y="392">Contact-quality indicator</text><text x="72" y="430">Timestamp + session identity</text><text x="456" y="316">Exact duplicate detection</text><text x="456" y="354">Missing eSense values</text><text x="456" y="392">Frozen repeated bands</text><text x="456" y="430">Signal and range checks</text><text x="840" y="316">Relative band powers</text><text x="840" y="354">Ratios and indices</text><text x="840" y="392">3-sample mean / deviation</text><text x="840" y="430">Within-session deltas</text></g>
+<g fill="none" stroke="#8fd7e6" stroke-width="2"><path d="M388 337H424m-8-6 8 6-8 6M772 337H808m-8-6 8 6-8 6"/></g>
+<rect x="48" y="522" width="1104" height="59" rx="10" fill="#153547"/>
+<text x="72" y="558" font-size="18">Output: an auditable feature table for experiments. Direction labels and session-level validation remain separate.</text>
+</g></svg>
